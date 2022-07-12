@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Heading and Contact Details */
+h1 {
+  color:rgba(39, 87, 206, 0.6);
+  font-size: 3rem;
+  margin: 20px;
+  letter-spacing: 0.3rem;
+  border-bottom: 3px solid rgba(39, 87, 206, 0.6);
+}
+
+.heading-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 50px;
+}
+.heading-grid a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.heading-grid a:hover {
+  color: rgba(39, 87, 206, 0.6);
+}
+.heading-grid i {
+  color: rgba(39, 87, 206, 0.6);
+  font-size: 1.2rem;
+}
+.heading-grid-item2 {
+  margin: 10px 20px 0 0;
+}
+
+/* About section */
+.about-container {
+  margin: 50px 50px;
+}
+.about-container .primary-heading {
+  font-size: 1.8rem;
+  border-bottom: 1px solid rgba(39, 87, 206, 0.6);
+  width: 10%;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 50px;
+}
+
+/* Image */
+.about-container img {
+  width: 500px;
+  height: auto;
+  position: relative;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+    inset 0 0 20px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+    inset 0 0 20px rgba(255, 255, 255, 1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+    inset 0 0 20px rgba(255, 255, 255, 1);
+  -webkit-border-radius: 60em;
+  -moz-border-radius: 60em;
+  border-radius: 60em;
+}
+.about-container p {
+  align-self: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Information Section */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 200px;
+}
+
+.info-grid h2 {
+  font-size: 1.8rem;
+  border-bottom: 1px solid rgba(39, 87, 206, 0.6);
+  width: 80%;
+}
+
+.info-grid ul {
+  align-self: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
